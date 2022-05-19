@@ -1,0 +1,137 @@
+body{
+    background-color: bisque;
+}
+
+
+header{
+    background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470);
+    height: 25vh;
+    width: 100%;
+    background-position: center;
+    position: fixed;
+}
+
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    font-family: 'Koulen', cursive;
+    font-size: 55px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.5s ease-in;
+}
+
+header ul li a:hover{
+    background-color: beige;
+    color: black
+}
+
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 1px 0px 0px 1px;
+}
+
+.title{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 13%;
+}
+
+.images{
+    padding: 10px;
+}
+
+table{
+    width: 200px;
+}
+
+th{
+    text-align: left;
+}
+.image{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+ol{
+    list-style-type: upper-alpha;
+    text-decoration: underline;
+    margin-left: 280px;
+}
+
+section{
+    height: 90px;
+}
+
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+table, th, td{
+    border: 1px solid #000;
+    font-size: 40px;
+    text-align: center;
+    margin: 5% auto 5% auto;
+
+}
+
+button {
+    display: inline-block;
+    background-color: #ff4400;
+    border-radius: 5px;
+    border: 2px double #ffffffde;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+  }
+
+button:hover{
+    color: #0015ff;
+    transition: .6s ease;
+}
+
+footer{
+    width: 100%;
+    background-color: #222;
+    padding: 60px 0px;
+}
+
+footer ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li a{
+    font-family: 'Koulen', cursive;
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff4400;
+    transition: 0.5s ease-in;
+}
+
+footer ul li a:hover{
+    background-color: beige;
+    color: black
+}
